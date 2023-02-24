@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(148, 184, 141), pink);
+     background-repeat: no-repeat
+}
+
+.heading {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.heading a {
+    text-decoration: none;
+    color: rgb(46, 25, 240)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto;
+}
+
+.grid-item {
+    padding: 40px;
+    margin: 50px 100px;
+    background: linear-gradient(to bottom left, #0db2f3, #d292eb);
+    height: auto;
+    border-radius: 5px;
+}
+
+#currency,input{
+    padding: 10px;  
+    width: 400px; 
+    font-weight: lighter;
+    font-size: medium;
+    margin-bottom: 10px;
+}
